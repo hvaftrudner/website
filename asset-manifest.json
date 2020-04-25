@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hvaftrudner/website.git/static/css/main.d1b05096.chunk.css",
+    "main.js": "/hvaftrudner/website.git/static/js/main.edd7bc30.chunk.js",
+    "main.js.map": "/hvaftrudner/website.git/static/js/main.edd7bc30.chunk.js.map",
+    "runtime-main.js": "/hvaftrudner/website.git/static/js/runtime-main.18a455f7.js",
+    "runtime-main.js.map": "/hvaftrudner/website.git/static/js/runtime-main.18a455f7.js.map",
+    "static/js/2.f3c22ab0.chunk.js": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js",
+    "static/js/2.f3c22ab0.chunk.js.map": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js.map",
+    "index.html": "/hvaftrudner/website.git/index.html",
+    "precache-manifest.5e9615dd0c944402de843c5a0ec01d4a.js": "/hvaftrudner/website.git/precache-manifest.5e9615dd0c944402de843c5a0ec01d4a.js",
+    "service-worker.js": "/hvaftrudner/website.git/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/hvaftrudner/website.git/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f3c22ab0.chunk.js.LICENSE.txt": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/hvaftrudner/website.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18a455f7.js",
+    "static/js/2.f3c22ab0.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.edd7bc30.chunk.js"
+  ]
+}
