@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hvaftrudner/website.git/static/css/main.d1b05096.chunk.css",
-    "main.js": "/hvaftrudner/website.git/static/js/main.edd7bc30.chunk.js",
-    "main.js.map": "/hvaftrudner/website.git/static/js/main.edd7bc30.chunk.js.map",
-    "runtime-main.js": "/hvaftrudner/website.git/static/js/runtime-main.18a455f7.js",
-    "runtime-main.js.map": "/hvaftrudner/website.git/static/js/runtime-main.18a455f7.js.map",
-    "static/js/2.f3c22ab0.chunk.js": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js",
-    "static/js/2.f3c22ab0.chunk.js.map": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js.map",
-    "index.html": "/hvaftrudner/website.git/index.html",
-    "precache-manifest.5e9615dd0c944402de843c5a0ec01d4a.js": "/hvaftrudner/website.git/precache-manifest.5e9615dd0c944402de843c5a0ec01d4a.js",
-    "service-worker.js": "/hvaftrudner/website.git/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/hvaftrudner/website.git/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.f3c22ab0.chunk.js.LICENSE.txt": "/hvaftrudner/website.git/static/js/2.f3c22ab0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hvaftrudner/website.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/website/static/css/main.d1b05096.chunk.css",
+    "main.js": "/website/static/js/main.edd7bc30.chunk.js",
+    "main.js.map": "/website/static/js/main.edd7bc30.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.da8521c1.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.da8521c1.js.map",
+    "static/js/2.f3c22ab0.chunk.js": "/website/static/js/2.f3c22ab0.chunk.js",
+    "static/js/2.f3c22ab0.chunk.js.map": "/website/static/js/2.f3c22ab0.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.989ae946bfc1997e6ce1b078bcce85ff.js": "/website/precache-manifest.989ae946bfc1997e6ce1b078bcce85ff.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/website/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f3c22ab0.chunk.js.LICENSE.txt": "/website/static/js/2.f3c22ab0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/website/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.18a455f7.js",
+    "static/js/runtime-main.da8521c1.js",
     "static/js/2.f3c22ab0.chunk.js",
     "static/css/main.d1b05096.chunk.css",
     "static/js/main.edd7bc30.chunk.js"
