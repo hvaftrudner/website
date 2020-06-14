@@ -1,0 +1,17 @@
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  
+  /* remember flexbox parents for children, this is the main parent*/
+  display: flex;
+  /* flex-direction column does makes the child expand on the right side of parent */
+  flex-wrap: wrap;
+  
+}
+
+.test {
+  color: white;
+}
+

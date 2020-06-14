@@ -1,0 +1,46 @@
+.Header {
+    height: 10%;
+    width: 100%;
+    margin: 15px 10px 10px 10px;
+    
+    border: solid 3px #49f566;
+    border-radius: 5px 5px 30px 30px;
+    box-shadow: 0px 0px 25px #08e600, 0 0 25px #4dff7a inset;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HeaderText {
+    color: rgb(74, 247, 97);
+    /*font-family: 'Sacramento', cursive; */
+    text-shadow: 2px 2px 15px rgb(114, 190, 0), 0 0 15px rgb(60, 255, 60);
+}
+
+.HeaderLinks {
+    margin: 15px 120px 10px 120px;
+    color: rgb(108, 253, 51);
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* adds effects to svg.icon */
+.HeaderLinks{filter:drop-shadow(2px 2px 5px rgb(95, 236, 52))}
+
+/*name all buttons or have the same effect on all ?*/
+.Header-Icon:hover {
+    color: orange;
+}
+
+h1 {
+    font-size: 8vh;
+}
+h2 {
+    font-size: 4vh;
+}
+h5 {
+    font-size: 2vh;
+}

@@ -1,0 +1,28 @@
+.MainContent {
+    width: 100%;
+    /*change height to be responsive*/
+   
+    margin: 15px 10px 10px 10px;
+
+    border: solid 3px yellow;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 25px #f7fa41, 0 0 25px #ccbf08 inset;
+    text-shadow: 2px 2px 15px rgb(190, 177, 0), 0 0 15px rgb(255, 235, 60);
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.MainContent h1 {
+    color: Yellow;
+    font-size: 8vh;
+}
+
+.MainContent p {
+    color: yellow;
+    border: none;
+    font-size: 3vh;
+}
