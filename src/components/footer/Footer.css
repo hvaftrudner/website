@@ -2,13 +2,14 @@
     height: 3%;
     width: 100%;
     /*make color lighter and more contrast to background*/
-    color: rgb(192, 5, 192);
+    color: rgb(255, 231, 255);
+    text-shadow: 2px 2px 15px #b504eb, 0 0 15px #c02ae6;
     font-size: 1.5vh;
     
-    margin: 15px 10px 10px 10px;
-    border: solid 3px purple;
+    margin: 5px 10px 10px 10px;
+    /* border: solid 3px purple;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 25px #a621ff, 0 0 35px #5d04a5 inset;
+    box-shadow: 0px 0px 25px #a621ff, 0 0 35px #5d04a5 inset; */
 
     display: flex;
     
@@ -16,4 +17,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     
+}
+
+@media only screen and (max-width: 680px){
+   
 }

@@ -1,0 +1,15 @@
+.not-visible {
+    width: 100%;
+    opacity: 0;
+    
+    transition: opacity 1000ms ease-out;
+    will-change: opacity;
+
+    display: flex;
+}
+
+.visible {
+    opacity: 1;
+    
+    
+}

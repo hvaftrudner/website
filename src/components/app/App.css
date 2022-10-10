@@ -2,16 +2,33 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  background-color: black;
-  
+  background-color: #06011b;
+  font-family: 'Black Ops One', cursive;
+  /*font-family: 'Merienda One', cursive;*/
   /* remember flexbox parents for children, this is the main parent*/
   display: flex;
   /* flex-direction column does makes the child expand on the right side of parent */
   flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+  /*animation: animate 2s;*/
   
+  background: url(neonNight2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+}
+/*
+@keyframes animate {
+  from {opacity: 0}
+  to {opacity: 1}
 }
 
 .test {
   color: white;
 }
 
+*/

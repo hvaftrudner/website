@@ -2,7 +2,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import {useSpring, animated} from 'react-spring';
+//import {useSpring, animated} from 'react-spring';
 //use animated.div to with effect to slowly render in app
 
 //components
@@ -11,9 +11,15 @@ import Footer from '../footer/Footer';
 import Navbar from '../navbar/Navbar';
 import LatestWork from '../latestwork/LatestWork';
 import MainContent from '../maincontent/MainContent';
+import Cv from '../cv/Cv';
+
+
+//import Work from '../work/Work';
 
 //utils
 import GithubUser from '../../utils/github';
+import FadeIn from '../../utils/fadein';
+
 
 class App extends React.Component {
 
@@ -34,6 +40,9 @@ class App extends React.Component {
   getRepo(){
     GithubUser.getUserRepo().then(result => {
       this.setState({repoInfo: result})
+      let repoCount = result.length
+      //count is only 30? should be 70+
+      console.log(repoCount)
     });
   }
 
@@ -45,13 +54,23 @@ class App extends React.Component {
 
     return(
       <div className="App">
-        <Header />
         <Navbar getRepo={this.getRepo}
-                repo={this.state.repoInfo}/>
+                repo={this.state.repoInfo}
+                />
+        <Header />
+        
+        
         <LatestWork getRepo={this.getRepo}
                     repo={this.state.repoInfo}/>
-        <MainContent />
-        <Footer />
+        <FadeIn 
+          children={<Cv />}/>
+        
+        <FadeIn 
+          children={<MainContent />}/>
+          
+        <FadeIn 
+          children={<Footer />} />
+        
         
         {/*test comment*/}
       </div>

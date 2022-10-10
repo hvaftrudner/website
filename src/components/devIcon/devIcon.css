@@ -1,0 +1,17 @@
+.devIcon {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    
+}
+
+@media only screen and (max-width: 680px){
+   .devIcon {
+       visibility: hidden;
+       width: 0;
+       height: 0;
+   }
+}

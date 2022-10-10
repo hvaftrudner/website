@@ -1,28 +1,149 @@
 .MainContent {
-    width: 100%;
-    /*change height to be responsive*/
-   
-    margin: 15px 10px 10px 10px;
+    width: 99vw;
+    
+    color: rgb(255, 255, 158);
+    margin: 5px 10px 5px 10px;
 
-    border: solid 3px yellow;
+    /* border: solid 3px yellow;
     border-radius: 30px 30px 30px 30px;
-    box-shadow: 0px 0px 25px #f7fa41, 0 0 25px #ccbf08 inset;
+    box-shadow: 0px 0px 25px #f7fa41, 0 0 25px #ccbf08 inset; */
     text-shadow: 2px 2px 15px rgb(190, 177, 0), 0 0 15px rgb(255, 235, 60);
 
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-
+    
+    /*overflow: none;
+    
+    white-space: initial;*/
+    word-break: break;
 }
 
-.MainContent h1 {
-    color: Yellow;
-    font-size: 8vh;
+.MainContentContainer {
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; /* changes order of boxes */
+    
+    width: 98%;
+    color: rgb(255, 255, 212);
 }
 
-.MainContent p {
-    color: yellow;
-    border: none;
-    font-size: 3vh;
+.MainContentContainerElement {
+
+    width: 96%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.MainContentContainerText {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50%;
+}
+
+.MainContentContainerElementHeader {
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.MainContentContainerElementInfo {
+
+    font-size: 1vw;
+    width: 60%;
+}
+.MainContentContainerPic {
+    width: 50%;
+    visibility: hidden;
+}
+.Font1 {
+    font-size: 6vw;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .MainContentContainer {
+        margin: 0 auto;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column; /* changes order of boxes */
+        
+        width: 98%;
+        color: rgb(255, 255, 212);
+    }
+    .MainContent h1 {
+        margin-bottom: 1px;
+    }
+
+    .MainContentContainerElement {
+        width: 96%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        margin-top: 4vh;
+    }
+    .MainContentContainerText {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        width: 100%;
+    }
+
+    .MainContentContainerElementHeader {
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .MainContentContainerElementInfo {  
+    
+        font-size: 2vw;
+        width: 60%;
+    }
+
+    .MainContentContainerPic {
+        width: 0%;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 680px) { 
+
+    .MainContentContainerElementHeader {
+        
+        color: white;
+        font-size: 5vw;
+    }
+
+    .MainContentContainerElementInfo {
+        
+        margin-top: 10px;
+        font-size: 3vw;
+        width: 100%;
+    }
 }
