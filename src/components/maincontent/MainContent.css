@@ -134,6 +134,10 @@
 
 @media only screen and (max-width: 680px) { 
 
+    .MainContent h1 {
+        font-size: 40px;
+    }
+
     .MainContentContainerElementHeader {
         
         color: white;
@@ -146,4 +150,5 @@
         font-size: 3vw;
         width: 100%;
     }
+
 }

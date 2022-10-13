@@ -74,7 +74,7 @@
 
 .LatestWorkInfo {
 
-    margin: auto;
+    margin-left: 5px;
     padding-top: 5px;
     display: flex;
     text-align: center;
@@ -267,4 +267,39 @@
       animation: bounceLeft 2s infinite;
     }
   
+  }
+
+  @media only screen and (max-height: 580px) {
+
+    .LatestWorkContainer {
+      height: 10vw;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .LatestWorkHeader {
+      padding-top: 10px;
+      color: white;
+      font-size: 2.5vw;
+      text-shadow: 0 0 15px rgb(217, 69, 236);
+      /*border: solid 1px pink; */
+     
+    }
+  
+    .LatestWorkInfo {
+      padding-top: 10px;
+        font-size: 1.2vw;
+        color: white;
+        /*border: solid 1px pink; */
+        word-break: break-word;
+    }
+  }
+
+  @media only screen and (max-height: 580px) and (max-width: 580px) {
+    .LatestWorkInfo {
+      
+        font-size: 8px;
+    }
   }

@@ -72,3 +72,16 @@ h5 {
         justify-content: space-around;
     }
 }
+
+@media only screen and (max-height: 600px){
+    .HeaderLinks {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .Header-Icon {
+        font-size: 30px;
+    }
+}

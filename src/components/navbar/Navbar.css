@@ -60,7 +60,6 @@
     
     text-shadow: 2px 2px 15px #ff00a0, 0 0 15px #ff00a0;
     
-
     transition: width 0.2s ease-in-out;
 }
 
@@ -112,6 +111,10 @@
     transition: ease-in-out;
     
 }
+
+.NavbarEffect :hover {
+   cursor: pointer;
+}
 .NavbarTextEffect {
     
     width: 10%;
@@ -138,7 +141,7 @@
 
 /* use transition here */
 .NavbarTextEffectAnimated {
-    margin-top: 22vh;
+    margin-top: 200px;
     margin-right: 80px;
 
     transition: margin-top 0.2s ease-in, margin-right 0.2s ease-in;
@@ -215,6 +218,7 @@
     height: 100%;
 }
 
+
 @media only screen and (max-width: 680px){
   
     .NavbarText a{
@@ -244,4 +248,40 @@
     }
 
     
+}
+
+@media only screen and (max-height: 480px) {
+    .NavbarTextEffectAnimated {
+        padding-top: 120px;
+        margin-right: 70px;
+
+    }
+
+    .Navbar {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+
+    .NavbarText {
+        padding-top: 5px;
+    }
+
+    .NavbarText a{
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 20px;
+        font-size: 4vh;
+    }
+
+    .NavbarTextAnimated a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 20px;
+        font-size: 4vh;
+    }
 }
