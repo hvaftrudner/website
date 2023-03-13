@@ -1,0 +1,28 @@
+.Nord-Hist-Privacy-Main {
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgb(71, 97, 42);
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Nord-Hist-Pricacy-Header {
+    color: white;
+    font-size: 4em;
+
+}
+
+.Nord-Hist-Pricacy-Header p {
+    font-size: 0.5em;
+}
+
+
+.Nord-Hist-Pricacy-Body {
+    color: white;
+    width: 70%;
+}

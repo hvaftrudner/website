@@ -5,6 +5,9 @@ import React from 'react';
 //import {useSpring, animated} from 'react-spring';
 //use animated.div to with effect to slowly render in app
 
+//added routing to ios app pages
+//import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 //components
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
@@ -13,8 +16,9 @@ import LatestWork from '../latestwork/LatestWork';
 import MainContent from '../maincontent/MainContent';
 import Cv from '../cv/Cv';
 
-
+import NordicHistoricalSites from '../NordicHistoricalSites/NordicHistoricalSites';
 //import Work from '../work/Work';
+//import NordicHistoricalSitesPrivacy from '../NordicHistoricalSites/NordicHistoricalSitesPrivacy/NordicHistoricalSitesPrivacy.js';
 
 //utils
 import GithubUser from '../../utils/github';
@@ -53,27 +57,33 @@ class App extends React.Component {
   render(){
 
     return(
-      <div className="App">
-        <Navbar getRepo={this.getRepo}
-                repo={this.state.repoInfo}
-                />
-        <Header />
-        
-        
-        <LatestWork getRepo={this.getRepo}
-                    repo={this.state.repoInfo}/>
-        <FadeIn 
-          children={<Cv />}/>
-        
-        <FadeIn 
-          children={<MainContent />}/>
+      
+          <div className="App">
+          <Navbar getRepo={this.getRepo}
+                  repo={this.state.repoInfo}
+                  />
+          <Header />
           
-        <FadeIn 
-          children={<Footer />} />
+          <FadeIn 
+            children={<NordicHistoricalSites />}/>
+          
+          <LatestWork getRepo={this.getRepo}
+                      repo={this.state.repoInfo}/>
+          <FadeIn 
+            children={<Cv />}/>
+          
+          <FadeIn 
+            children={<MainContent />}/>
+            
+          <FadeIn 
+            children={<Footer />} />
+          
+          
+          {/*test comment*/}
+        </div>
+      
         
-        
-        {/*test comment*/}
-      </div>
+      
     )
   }
 }

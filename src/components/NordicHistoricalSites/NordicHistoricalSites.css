@@ -1,0 +1,80 @@
+.NordicHistoricalSitesMain {
+    height: 98vh;
+    width: 100vw;
+
+   
+    border-radius: 5px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.Nord-Header {
+    margin-top: 1px;
+    color: white;
+    text-shadow: 2px 2px 15px #59ff59, 0 0 15px #90ff64;
+    
+}
+.Nord-Body {
+
+    width: 98%;
+    height: 98%;
+    color: white;
+    text-shadow: 2px 2px 15px #59ff59, 0 0 15px #90ff64;
+   
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.App-images {
+    width: 44%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.App-images-image img {
+    height: 80%;
+    width: 30%;
+
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+
+.App-info {
+    height: 90%;
+    width: 32%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.App-info-header {
+    font-size: 40px;
+}
+.App-info-body {
+    
+    width: 70%;
+}
+
+.App-info-body a {
+    color: white;
+    font-size: 10px;
+}
