@@ -24,7 +24,7 @@ class root extends React.Component {
                 {/* This route is for about component 
                 with exact path "/about", in component 
                 props we passes the imported component*/}
-                <Route exact path='/NordicHistoricalSites/PrivacyPolicy' element={<PrivacyPolicy />} />
+                <Route path='/NordicHistoricalSites/PrivacyPolicy' element={<PrivacyPolicy />} />
                   
                 {/* If any route mismatches the upper 
                 route endpoints then, redirect triggers 
