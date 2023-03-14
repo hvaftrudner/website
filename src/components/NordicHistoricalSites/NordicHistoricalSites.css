@@ -78,3 +78,64 @@
     color: white;
     font-size: 10px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .NordicHistoricalSitesMain {
+        height: 100%;
+        width: 100vw;
+    
+       
+        border-radius: 5px;
+    
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .Nord-Body {
+
+        width: 98%;
+        height: 98%;
+        color: white;
+        text-shadow: 2px 2px 15px #59ff59, 0 0 15px #90ff64;
+       
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .App-info {
+        
+        width: 90%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    
+    }
+
+    .App-images {
+        width: 90%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    .App-images-image img {
+        height: 80%;
+        width: 30%;
+    
+        padding: 5px;
+        border-radius: 14px;
+        
+    }
+}

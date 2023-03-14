@@ -1,6 +1,6 @@
 .Nord-Hist-Privacy-Main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
     background-color: rgb(71, 97, 42);
 
@@ -11,18 +11,20 @@
     align-items: center;
 }
 
-.Nord-Hist-Pricacy-Header {
+.Nord-Hist-Privacy-Header {
     color: white;
     font-size: 4em;
 
 }
 
-.Nord-Hist-Pricacy-Header p {
+.Nord-Hist-Privacy-Header p {
     font-size: 0.5em;
 }
 
 
-.Nord-Hist-Pricacy-Body {
+.Nord-Hist-Privacy-Body {
     color: white;
-    width: 70%;
+    width: 80%;
+    word-break: break-word;
 }
+
