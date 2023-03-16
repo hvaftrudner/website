@@ -5,6 +5,7 @@ import NordicHistImg2 from './Nordic hist img2.png';
 import NordicHistImg3 from './Nordic hist img3.png';
 
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 class NordicHistoricalSites extends React.Component {
 
@@ -54,10 +55,28 @@ class NordicHistoricalSites extends React.Component {
                                         className="App-info-route-link" 
                                         >
                                         Privacy policy
-                                    </Link> */}
+                                        
+                                    </Link> 
                                     <a href='/NordicHistoricalSites/PrivacyPolicy' className="App-info-route-link" >
                                         Privacy Policy
                                     </a>
+
+                                    <a href='#/NordicHistoricalSites/PrivacyPolicy' className="App-info-route-link" >
+                                        Privacy Policy
+                                    </a>
+                                    
+                                    <Link to="/NordicHistoricalSites/PrivacyPolicy"
+                                       // relative=".."
+                                       // className="App-info-route-link" 
+                                        >
+                                        Privacy policy
+                                    </Link> 
+                                    */}
+                                    
+
+                                    <Link to={{ pathname: "NordicHistoricalSites/PrivacyPolicy" }} target="_blank" rel="noopener noreferrer">
+                                        Privacy policy
+                                    </Link>
                                 </p>
 
                             <a href="https://www.raa.se/hitta-information/k-samsok/" target="_blank" rel="noopener noreferrer"> App data is provided from the K-samsök API </a>
